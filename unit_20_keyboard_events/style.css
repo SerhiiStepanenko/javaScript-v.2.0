@@ -1,0 +1,65 @@
+.container  {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+
+.conteiner{
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 630px;
+}
+
+.conteiner div{
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.space{
+    width: 600px;
+    
+}
+
+.block1{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    justify-content: space-around;
+    padding: 0px;
+}
+.block2{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.block3{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+.block4{
+    justify-content: center;
+}
+
+.block1 button{
+    margin: 0px;
+}
